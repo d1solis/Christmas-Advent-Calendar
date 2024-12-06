@@ -1,22 +1,107 @@
-.grid-container {
+h1{
+    font-family: 'della_respiraregular', georgia, serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-container1 {
     padding: 10px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container2 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container3 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container4 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container5 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container6 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container7 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
+}
+
+.grid-container8 {
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    font-family: 'della_respiraregular', georgia, serif;
 }
 
 .grid-item {
-    background-color: green;
-    border: 1px solid black;
+    background-color: rgb(0, 143, 0);
+    border: 1px solid rgb(6, 71, 6);
     padding: 80px;
     font-size: 30px;
     text-align: center;
+    font-family: 'della_respiraregular', georgia, serif;
 }
 
 .star {
-    background-color: yellow;
+    background-color: rgb(255, 238, 0);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
 }
 
 .wood {
-    background-color: brown;
+    background-color: rgb(109, 47, 25);
+    border: 1px solid rgb(66, 18, 3);
 }
