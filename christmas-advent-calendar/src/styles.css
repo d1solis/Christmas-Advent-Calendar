@@ -7,6 +7,8 @@ h1{
     font-family: 'della_respiraregular', georgia, serif;
     font-size: 40px;
     position: relative;
-    left: 385px;
     z-index: 0; /* Ensure it's below the snow */
+    color: white;
+    text-align: center;
+
 }

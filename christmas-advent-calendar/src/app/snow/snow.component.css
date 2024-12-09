@@ -14,7 +14,7 @@ snow-wrapper:host {
     height: 10px;
     background: white;
     border-radius: 50%;
-    animation: fallingSnow 20s linear infinite;
+    animation: fallingSnow 10s linear infinite;
     position: absolute;
     left: 0;
     top: -40px;
@@ -35,7 +35,7 @@ snow-wrapper:host {
     width: 20px;
     height: 20px;
     animation-delay: 0s;
-    animation-duration: 11s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(2) {
@@ -43,7 +43,7 @@ snow-wrapper:host {
     width: 25px;
     height: 25px;
     animation-delay: 0s;
-    animation-duration: 8s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(3) {
@@ -51,7 +51,7 @@ snow-wrapper:host {
     width: 40px;
     height: 40px;
     animation-delay: 0s;
-    animation-duration: 7s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(4) {
@@ -59,7 +59,7 @@ snow-wrapper:host {
     width: 30px;
     height: 30px;
     animation-delay: 0s;
-    animation-duration: 6s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(5) {
@@ -67,7 +67,7 @@ snow-wrapper:host {
     width: 10px;
     height: 10px;
     animation-delay: 0s;
-    animation-duration: 4s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(6) {
@@ -75,7 +75,7 @@ snow-wrapper:host {
     width: 40px;
     height: 40px;
     animation-delay: 0s;
-    animation-duration: 6s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(7) {
@@ -83,7 +83,7 @@ snow-wrapper:host {
     width: 30px;
     height: 30px;
     animation-delay: 0s;
-    animation-duration: 8s;
+    animation-duration: 10s;
 }
 
 .snow:nth-child(8) {
@@ -91,5 +91,13 @@ snow-wrapper:host {
     width: 10px;
     height: 10px;
     animation-delay: 0s;
-    animation-duration: 11s;
+    animation-duration: 10s;
+}
+
+.snow:nth-child(9) {
+    left: 55%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 0s;
+    animation-duration: 10s;
 }
