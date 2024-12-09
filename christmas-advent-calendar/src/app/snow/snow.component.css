@@ -1,0 +1,95 @@
+snow-wrapper:host {
+    position: fixed; /* Ensures it stays on top of everything */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Full height of the viewport */
+    pointer-events: none; /* Allows interaction with components underneath */
+    z-index: 9999; /* Higher than other components */
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+.snow {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    animation: fallingSnow 20s linear infinite;
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+@keyframes fallingSnow {
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(300vh);
+    }
+}
+
+.snow:nth-child(1) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.snow:nth-child(2) {
+    left: 40%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 0s;
+    animation-duration: 8s;
+}
+
+.snow:nth-child(3) {
+    left: 95%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+
+.snow:nth-child(4) {
+    left: 20%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 0s;
+    animation-duration: 6s;
+}
+
+.snow:nth-child(5) {
+    left: 60%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+}
+
+.snow:nth-child(6) {
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    animation-duration: 6s;
+}
+
+.snow:nth-child(7) {
+    left: 85%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 0s;
+    animation-duration: 8s;
+}
+
+.snow:nth-child(8) {
+    left: 35%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}

@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    background-color: rgba(255, 0, 0, 0.815);
+    background-color: #14184e;
+}
+
+h1{
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 40px;
+    position: relative;
+    left: 385px;
+    z-index: 0; /* Ensure it's below the snow */
 }
