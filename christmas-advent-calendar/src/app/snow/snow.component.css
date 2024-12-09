@@ -101,3 +101,35 @@ snow-wrapper:host {
     animation-delay: 0s;
     animation-duration: 10s;
 }
+
+.snow:nth-child(10) {
+    left: 24%;
+    width: 10px;
+    height: 10px;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
+
+.snow:nth-child(11) {
+    left: 29%;
+    width: 55px;
+    height: 55px;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
+
+.snow:nth-child(12) {
+    left: 74%;
+    width: 55px;
+    height: 55px;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
+
+.snow:nth-child(13) {
+    left: 3%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
