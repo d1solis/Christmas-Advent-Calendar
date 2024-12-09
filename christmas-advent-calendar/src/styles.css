@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-*{
-    background-color: #14184e;
+body{
+    background-color: #0b203f;
+    background-image: url("assets/BlueChristmas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
