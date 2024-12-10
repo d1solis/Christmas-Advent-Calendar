@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-snow',
   imports: [],
   templateUrl: './snow.component.html',
-  styleUrl: './snow.component.css'
+  styleUrls: ['./snow.component.css']
 })
 export class SnowComponent {
 
