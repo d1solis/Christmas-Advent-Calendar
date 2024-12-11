@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,16 +8,25 @@ import { CommonModule } from '@angular/common';
   templateUrl: './snow-effect.component.html',
   styleUrls: ['./snow-effect.component.css']
 })
-export class SnowEffectComponent {
+
+export class SnowEffectComponent implements OnInit {
   snowflakes: any[] = [];
 
   ngOnInit() {
-    for (let i = 0; i < 100; i++) {
+    const snowflakeCount = 90; // Adjust as needed
+    for (let i = 0; i < snowflakeCount; i++) {
+      const leftSnow = Math.random() * 100; // Percentage for left position
+      const topSnow = Math.random() * 100; // Percentage for top position
+      const widthSnow = Math.random() * 40; // Size of the snowflake
+      const timeSnow = Math.random() * 2 + 2; // Animation duration
+      const blurSnow = Math.random() * 2; // Blur effect
+
       this.snowflakes.push({
-        x: Math.random() * 100,
-        y: Math.random() * 100,
-        size: Math.random() * 5 + 5,
-        speed: Math.random() * 2 + 1
+        x: leftSnow,
+        y: topSnow,
+        size: widthSnow,
+        speed: timeSnow,
+        blur: blurSnow 
       });
     }
   }
@@ -28,7 +37,8 @@ export class SnowEffectComponent {
       top: `${snowflake.y}%`,
       width: `${snowflake.size}px`,
       height: `${snowflake.size}px`,
-      animationDuration: `${snowflake.speed}s`
+      animationDuration: `${snowflake.speed}s`,
+      filter: `blur(${snowflake.blur}px)`
     };
   }
 }
