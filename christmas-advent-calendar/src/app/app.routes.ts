@@ -9,6 +9,8 @@ import { Page6Component } from './page-6/page-6.component';
 import { Page7Component } from './page-7/page-7.component';
 import { Page8Component } from './page-8/page-8.component';
 import { Page9Component } from './page-9/page-9.component';
+import { Page10Component } from './page-10/page-10.component';
+import { Page11Component } from './page-11/page-11.component';
 
 export const routes: Routes = [
     {path:'', component:CalendarComponent},
@@ -21,4 +23,6 @@ export const routes: Routes = [
     {path:'page-7', component:Page7Component},
     {path:'page-8', component:Page8Component},
     {path:'page-9', component:Page9Component},
+    {path:'page-10', component:Page10Component},
+    {path:'page-11', component:Page11Component},
 ];
