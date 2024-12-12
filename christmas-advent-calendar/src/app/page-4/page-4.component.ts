@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-page-3',
+  selector: 'app-page-4',
   standalone: true,
   imports: [ RouterModule ],
-  templateUrl: './page-3.component.html',
-  styleUrls: ['./page-3.component.css']
+  templateUrl: './page-4.component.html',
+  styleUrls: ['./page-4.component.css'],
 })
-export class Page3Component {
+export class Page4Component {
 
 }
