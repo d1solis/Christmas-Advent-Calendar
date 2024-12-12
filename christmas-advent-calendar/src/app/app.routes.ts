@@ -21,6 +21,8 @@ import { Page18Component } from './page-18/page-18.component';
 import { Page19Component } from './page-19/page-19.component';
 import { Page20Component } from './page-20/page-20.component';
 import { Page21Component } from './page-21/page-21.component';
+import { Page22Component } from './page-22/page-22.component';
+import { Page23Component } from './page-23/page-23.component';
 
 export const routes: Routes = [
     {path:'', component:CalendarComponent},
@@ -45,4 +47,6 @@ export const routes: Routes = [
     {path:'page-19', component:Page19Component},
     {path:'page-20', component:Page20Component},
     {path:'page-21', component:Page21Component},
+    {path:'page-22', component:Page22Component},
+    {path:'page-23', component:Page23Component},
 ];
