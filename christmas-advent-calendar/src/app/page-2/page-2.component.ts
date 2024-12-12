@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-page-2',
-  imports: [],
+  standalone: true,
+  imports: [ RouterModule ],
   templateUrl: './page-2.component.html',
-  styleUrl: './page-2.component.css'
+  styleUrls: ['./page-2.component.css']
 })
 export class Page2Component {
 
