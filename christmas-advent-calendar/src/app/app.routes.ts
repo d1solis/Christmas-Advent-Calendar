@@ -13,6 +13,8 @@ import { Page10Component } from './page-10/page-10.component';
 import { Page11Component } from './page-11/page-11.component';
 import { Page12Component } from './page-12/page-12.component';
 import { Page13Component } from './page-13/page-13.component';
+import { Page14Component } from './page-14/page-14.component';
+import { Page15Component } from './page-15/page-15.component';
 
 export const routes: Routes = [
     {path:'', component:CalendarComponent},
@@ -29,4 +31,6 @@ export const routes: Routes = [
     {path:'page-11', component:Page11Component},
     {path:'page-12', component:Page12Component},
     {path:'page-13', component:Page13Component},
+    {path:'page-14', component:Page14Component},
+    {path:'page-15', component:Page15Component},
 ];
