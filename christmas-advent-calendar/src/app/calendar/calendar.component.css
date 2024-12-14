@@ -96,7 +96,7 @@
 
 /* Keep specific styles for special items */
 .grid-item.star:hover {
-    background-color: rgb(255, 208, 0); /* Special hover color for star */
+    background-color: #ffcc00; /* Special hover color for star */
 }
 
 .grid-item.wood:hover {
