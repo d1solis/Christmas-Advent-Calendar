@@ -16,6 +16,14 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'della_respiraregular', georgia, serif;
+    position: relative;
+    z-index: 0; /* Ensure it's below the snow */
+    color: white;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
