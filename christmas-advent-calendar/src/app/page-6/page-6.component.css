@@ -1,0 +1,45 @@
+.section-6 {
+    text-align: center;
+}
+
+img {
+    height: 500px; /* Set a uniform height for all images */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Fit images without cropping */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+}
+
+p {
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 20px;
+}
+
+.ingredients {
+    text-align: center;
+    color: white;
+    font-family: 'della_respiraregular', georgia, serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 18px;
+    margin-bottom: -40px;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+
+a {
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+a:hover {
+    background-color: white;
+}
