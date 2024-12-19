@@ -1,0 +1,25 @@
+.section-9 {
+    text-align: center;
+}
+
+p {
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 20px;
+}
+
+.surprise {
+    background-color: pink;
+    color: white;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+
+    &.visible {
+        opacity: 1;
+    }
+}
