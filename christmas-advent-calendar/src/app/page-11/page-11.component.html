@@ -1,3 +1,68 @@
 <h1>
-    <b>Day 11</b>
+    <b>Day 11:</b> Mystery Gift
 </h1>
+
+<div class="section-11">
+    <!-- Gift 1 -->
+  <div class="gift-container">
+    <img 
+      src="assets/robloxgift1.png" 
+      alt="Gift 1" 
+      class="gift"
+      (click)="toggleVisibility(0)" 
+    />
+    <div class="surprise" [class.visible]="gifts[0].visible">
+      <img src="assets/socks.png" alt="Opened Gift 1" class="opened-gift" />
+      <p><b>socks</b></p>
+    </div>
+  </div>
+
+  <!-- Gift 2 -->
+  <div class="gift-container">
+    <img 
+      src="assets/robloxgift2.png" 
+      alt="Gift 2" 
+      class="gift"
+      (click)="toggleVisibility(1)" 
+    />
+    <div class="surprise" [class.visible]="gifts[1].visible">
+      <img src="assets/pillow.png" alt="Opened Gift 2" class="opened-gift" />
+      <p><b>pillow</b></p>
+    </div>
+  </div>
+
+  <!-- Gift 3 -->
+  <div class="gift-container">
+    <img 
+      src="assets/robloxgift3.png" 
+      alt="Gift 3" 
+      class="gift"
+      (click)="toggleVisibility(2)" 
+    />
+    <div class="surprise" [class.visible]="gifts[2].visible">
+      <img src="assets/undies.png" alt="Opened Gift 3" class="opened-gift" />
+      <p><b>undies</b></p>
+    </div>
+  </div>
+
+  <br>
+  <br>
+    <p>
+        SURPRISE! Welcome to Mystery Gift! ✨ Here I have wrapped three
+        special gifts for you! 🎁🎁🎁 You always pick and choose the loveliest
+        gifts for me, so it's time for me to return the favor! Whichever gift
+        you choose, I promise you will love it! 🤭🤍
+    </p>
+
+    <p>
+        INSTRUCTIONS: Choose one of the three gifts above and click on it to give
+        it a shake and reveal your gift! You can only choose <i>ONE</i> gift, so 
+        choose wisely Shad! Whichever gift you choose, you will receive it in the 
+        mail from me! 😆🤍 Afterwards, you may open up the remaining gifts just
+        for fun! I hope you enjoyed this little surprise!! I love you, silly!
+    </p>
+
+    <p>
+        P.S. I won't buy and mail them to you <i>UNLESS</i> you really want me to! 😜
+    </p>
+</div>
