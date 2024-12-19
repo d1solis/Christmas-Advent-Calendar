@@ -1,0 +1,48 @@
+/* Horizontal Scrolling Image Gallery */
+.imgGallery {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 15px; /* Spacing between images */
+    padding: 10px 0; /* Padding for top and bottom */
+    margin: 0 auto; /* Center the gallery container */
+    max-width: 90%; /* Responsive gallery width */
+    box-sizing: border-box;
+    scrollbar-width: thin; /* For Firefox - make the scrollbar less obtrusive */
+}
+
+.images {
+    list-style: none; /* Remove bullets */
+    display: inline-flex; /* Inline for horizontal scrolling */
+    flex-direction: column; /* Stack image and description */
+    align-items: center; /* Center-align content */
+}
+
+.images img {
+    height: 250px; /* Set a uniform height for all images */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Fit images without cropping */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'della_respiraregular', georgia, serif;
+    color: white;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+p {
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 20px;
+}
