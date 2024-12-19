@@ -12,8 +12,22 @@ p {
     text-indent: 20px;
 }
 
+button {
+    font-family: 'della_respiraregular', georgia, serif;
+    background-color: lightgray;
+    color: black;
+    font-size: 50px;
+    border-color: gray;
+    border-radius: 10px;
+    border-width: 20px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
 .surprise {
-    background-color: pink;
     color: white;
     display: grid;
     place-items: center;

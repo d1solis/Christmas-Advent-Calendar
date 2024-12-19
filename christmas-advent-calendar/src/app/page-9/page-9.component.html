@@ -3,25 +3,34 @@
 </h1>
 
 <div class="section-9">
-
-    <button (click)="visible = !visible">
-        {{ visible ? 'HIDE' : 'CLICK ME'}}
-    </button>
-
-    <div class="surprise" [class.visible]="visible">
-        <p>The video is supposed to be here!</p>
-    </div>
-
     <p>
         SURPRISE! Welcome to.. a Secret Button?! Uh oh... This is <i>very</i> important.
         Before clicking on the button, all I ask from you is to please read 
-        and understand the instructions below slowly and carefully.
+        and understand the instructions below slowly and carefully! I'm serious! 😨
     </p>
 
     <p>
         INSTRUCTIONS: ⚠️ This button can potentially be very DANGEROUS. Before 
-        attempting to click the button, please proceed with caution. When you 
-        are ready to begin, use your mouse to hover over the button and 
-        right-click carefully to reveal the secret surprise.  
+        attempting to click the button, please proceed with caution. It is advised
+        to physically and mentally prepare yourself. When you are ready to begin, 
+        use your mouse to hover over the button and right-click carefully to 
+        reveal the secret surprise. Remember, CLICK AT YOUR OWN RISK!!!
     </p>
+
+    <br>
+
+    <button (click)="visible = !visible">
+        {{ visible ? 'HIDE ME' : 'CLICK ME'}}
+    </button>
+
+    <div class="surprise" [class.visible]="visible">
+        <video width="720" height="480" controls>
+            <source src="\assets\Elfvideo.mp4" />
+        </video>
+
+        <p>
+            I hope you enjoyed the secret surprise! 😆🤍 You're so cute!!!
+            I love you, silly!
+        </p>
+    </div>
 </div>
