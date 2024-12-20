@@ -9,5 +9,5 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./page-19.component.css']
 })
 export class Page19Component {
-
+  protected visible = false;
 }

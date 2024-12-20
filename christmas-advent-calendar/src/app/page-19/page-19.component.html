@@ -1,3 +1,39 @@
 <h1>
-    <b>Day 19</b>
+    <b>Day 19:</b> Secret Button
 </h1>
+
+<div class="section-19">
+    <p>
+        SURPRISE! Welcome to.. a Secret Button?! Uh oh... This is <i>very</i> important.
+        Before clicking on the button, all I ask from you is to please read 
+        and understand the instructions below slowly and carefully! I'm serious! 😨
+    </p>
+
+    <p>
+        INSTRUCTIONS: ⚠️ This button can potentially be very DANGEROUS. Before 
+        attempting to click the button, please proceed with caution. It is advised
+        to physically and mentally prepare yourself. When you are ready to begin, 
+        use your mouse to hover over the button and right-click carefully to 
+        reveal the secret surprise. Remember, CLICK AT YOUR OWN RISK!!!
+    </p>
+
+    <br>
+
+    <button (click)="visible = !visible">
+        {{ visible ? 'HIDE ME' : 'CLICK ME'}}
+    </button>
+
+    <div class="surprise" [class.visible]="visible">
+        <br>
+        <br>
+
+        <video width="720" height="480" controls>
+            <source src="\assets\GingerbreadVideo.mp4" />
+        </video>
+
+        <p>
+            I hope you enjoyed the secret surprise! 😆🤍 You're the cutest 
+            gingerbread I've ever seen!!! I love you, silly!
+        </p>
+    </div>
+</div>
