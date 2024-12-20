@@ -1,0 +1,41 @@
+.section-17 {
+    text-align: center;
+}
+
+p {
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 20px;
+}
+
+.answer {
+    display: none;
+}
+
+.teaser {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.teaser:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    padding-left: 150px;
+    padding-right: 150px;
+}
