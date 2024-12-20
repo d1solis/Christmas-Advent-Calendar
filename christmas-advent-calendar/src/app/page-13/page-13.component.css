@@ -1,0 +1,107 @@
+.section-13 {
+    text-align: center;
+}
+
+p {
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 20px;
+}
+
+.emojis {
+    text-align: center;
+    color: white;
+    font-family: 'della_respiraregular', georgia, serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 50px;
+    margin-bottom: -40px;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+
+li {
+    border: 2px solid red;
+    outline-style: solid;
+    outline-color: red;
+    background-color: rgba(0, 128, 0, 0.76);
+}
+
+.answer {
+    display: none;
+}
+
+.emoji1 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji2 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji3 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji4 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji5 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.emoji1:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+.emoji2:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+.emoji3:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+.emoji4:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+.emoji5:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
