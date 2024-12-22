@@ -34,13 +34,13 @@ a:hover {
 
 }
 
-.across5 {
+.across2 {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-.across6 {
+.across5 {
     display: inline;
     margin: 0;
     padding: 0;
@@ -58,7 +58,25 @@ a:hover {
     padding: 0;
 }
 
+.across10 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
 .across12 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.across13 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.across14 {
     display: inline;
     margin: 0;
     padding: 0;
@@ -71,18 +89,6 @@ a:hover {
 }
 
 .across16 {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
-.across17 {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
-.across18 {
     display: inline;
     margin: 0;
     padding: 0;
@@ -112,12 +118,6 @@ a:hover {
     padding: 0;
 }
 
-.down5 {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
 .down6 {
     display: inline;
     margin: 0;
@@ -142,19 +142,19 @@ a:hover {
     padding: 0;
 }
 
-.down13 {
+.down12 {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-.down14 {
+.down16 {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-.across5:hover + .answer {
+.across2:hover + .answer {
     display: block;
     color: green;
     font-weight: bold;
@@ -162,7 +162,7 @@ a:hover {
     margin-bottom: -15px;
 }
 
-.across6:hover + .answer {
+.across5:hover + .answer {
     display: block;
     color: green;
     font-weight: bold;
@@ -186,7 +186,31 @@ a:hover {
     margin-bottom: -15px;
 }
 
+.across10:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
 .across12:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+.across13:hover + .answer {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-bottom: -15px;
+}
+
+.across14:hover + .answer {
     display: block;
     color: green;
     font-weight: bold;
@@ -203,22 +227,6 @@ a:hover {
 }
 
 .across16:hover + .answer {
-    display: block;
-    color: green;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-    margin-bottom: -15px;
-}
-
-.across17:hover + .answer {
-    display: block;
-    color: green;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-    margin-bottom: -15px;
-}
-
-.across18:hover + .answer {
     display: block;
     color: green;
     font-weight: bold;
@@ -258,14 +266,6 @@ a:hover {
     margin-bottom: -15px;
 }
 
-.down5:hover + .answer {
-    display: block;
-    color: green;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-    margin-bottom: -15px;
-}
-
 .down6:hover + .answer {
     display: block;
     color: green;
@@ -298,7 +298,7 @@ a:hover {
     margin-bottom: -15px;
 }
 
-.down13:hover + .answer {
+.down12:hover + .answer {
     display: block;
     color: green;
     font-weight: bold;
@@ -306,7 +306,7 @@ a:hover {
     margin-bottom: -15px;
 }
 
-.down14:hover + .answer {
+.down16:hover + .answer {
     display: block;
     color: green;
     font-weight: bold;
