@@ -1,0 +1,19 @@
+.section-22 {
+    text-align: center;
+}
+
+p {
+    font-family: 'della_respiraregular', georgia, serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 20px;
+}
+
+.videos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
