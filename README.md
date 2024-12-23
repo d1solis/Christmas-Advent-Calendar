@@ -35,11 +35,11 @@ This project is a **25-day Advent Calendar** created with love and creativity fo
 ```
 
 ## Key Highlights
-### **1. Gift Interactions**
-Each gift shakes on hover and reveals a surprise when clicked.
+### **1. Door Interactions**
+Each door reveals a surprise when clicked.
 - **Example:**
-  - Day 1: A hidden Christmas recipe.
-  - Day 5: A Halo-themed trivia challenge.
+  - Day 1: A welcome page/introduction.
+  - Day 7: A Scooby-doo themed brain-teaser challenge.
 
 ### **2. Final Door (25th)**
 The final door contains a heartfelt letter and a special surprise for Rashad to celebrate Christmas Day.
@@ -52,7 +52,7 @@ The final door contains a heartfelt letter and a special surprise for Rashad to 
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/advent-calendar.git
+   git clone https://github.com/your-username/Christmas-Advent-Calendar.git
    ```
 2. Navigate to the project folder:
    ```bash
@@ -64,16 +64,12 @@ The final door contains a heartfelt letter and a special surprise for Rashad to 
    ```
 4. Open your browser and go to `http://localhost:4200` to view the project.
 
-## Screenshots
-### Example of Interactive Door
-![Example Door](assets/example-screenshot.png)
-
 ## Acknowledgements
 - Inspired by the holiday spirit and my love for Rashad. 🤍
 - Special thanks to festive creativity and CSS magic!
 
 ## License
-This project is made with love and is not intended for commercial use. All rights reserved by the author, **[Dalila Solis](https://github.com/d1solis):**.
+This project is made with love and is not intended for commercial use. All rights reserved by the author, **[Dalila Solis](https://github.com/d1solis)**.
 
 ---
 
