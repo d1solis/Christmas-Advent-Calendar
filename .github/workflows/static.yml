@@ -34,13 +34,13 @@ jobs:
 
       # Build the Angular app
       - name: Build Angular App
-        run: npm run build -- --output-path=dist --base-href="/Christmas-Advent-Calendar/"
+        run: npm run build -- --output-path=dist/browser --base-href="/Christmas-Advent-Calendar/"
 
       # Upload artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: dist/browser
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
