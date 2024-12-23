@@ -15,7 +15,7 @@
           "options": {
             "outputPath": "dist/christmas-advent-calendar",
             "index": "src/index.html",
-            "baseHref": "/",
+            "baseHref": "/Christmas-Advent-Calendar/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -92,6 +92,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
