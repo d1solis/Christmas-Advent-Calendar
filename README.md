@@ -56,12 +56,13 @@ The final door contains a heartfelt letter and a special surprise for Rashad to 
    ```
 2. Navigate to the project folder:
    ```bash
-   cd advent-calendar
+   cd christmas-advent-calendar
    ```
-3. Open `index.html` in a browser or run the Angular app:
+3. Serve the Angular app locally:
    ```bash
    ng serve
    ```
+4. Open your browser and go to `http://localhost:4200` to view the project.
 
 ## Screenshots
 ### Example of Interactive Door
