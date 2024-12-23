@@ -15,7 +15,7 @@
           "options": {
             "outputPath": "dist/christmas-advent-calendar",
             "index": "src/index.html",
-            "baseHref": "/Christmas-Advent-Calendar/",
+            "baseHref": "/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
