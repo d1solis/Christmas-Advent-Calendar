@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-countdown',
+  standalone: true,
   templateUrl: './countdown.component.html',
   styleUrls: ['./countdown.component.css']
 })

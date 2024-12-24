@@ -53,4 +53,5 @@ export const routes: Routes = [
     {path:'page-23', component:Page23Component},
     {path:'page-24', component:Page24Component},
     {path:'page-25', component:Page25Component},
+    {path: '**', redirectTo: ''} // Add this line at the end
 ];
