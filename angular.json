@@ -48,6 +48,7 @@
                   "maximumError": "8kB"
                 }
               ],
+              "baseHref": "/Christmas-Advent-Calendar/",
               "outputHashing": "all"
             },
             "development": {
