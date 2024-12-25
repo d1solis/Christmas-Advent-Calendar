@@ -1,6 +1,10 @@
 [build]
-  publish = "dist/browser/browser"
   command = "npm run build"
+  publish = "dist/browser/browser"
+
+[dev]
+  command = "npm run start"
+  targetPort = 4200
 
 [[redirects]]
   from = "/*"
@@ -8,17 +12,16 @@
   status = 200
 
 [[headers]]
-  for = "/*"
+  for = "/assets/*"
   [headers.values]
-    "Content-Type" = "text/javascript"
-    "X-Content-Type-Options" = "nosniff"
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "/*.js"
   [headers.values]
-    "Content-Type" = "text/javascript"
+    Content-Type = "application/javascript"
 
 [[headers]]
   for = "/*.css"
   [headers.values]
-    "Content-Type" = "text/css"
+    Content-Type = "text/css"
