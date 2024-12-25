@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/",
             "outputPath": "dist/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -48,7 +49,7 @@
                   "maximumError": "8kB"
                 }
               ],
-              "baseHref": "/Christmas-Advent-Calendar/",
+              "baseHref": "/",
               "outputHashing": "all"
             },
             "development": {
