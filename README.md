@@ -1,7 +1,8 @@
 # Personal 2024 Christmas Advent Calendar 🎄
 
 ## Overview
-This project is a **25-day Advent Calendar** created with love and creativity for Rashad. Each door represents a unique day with surprises, interactive elements, and heartfelt messages leading up to Christmas Day. Link to the official website deployed on Netlify here: https://christmas-advent-calendar.netlify.app/#/
+This project is a **25-day Advent Calendar** created with love and creativity for Rashad. Each door represents a unique day with surprises, interactive elements, and heartfelt messages leading up to Christmas Day. 
+- Link to the official website deployed on Netlify here: https://christmas-advent-calendar.netlify.app/#/
 
 ## Some Key Features
 - **Interactive Elements:**
