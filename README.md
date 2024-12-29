@@ -72,11 +72,11 @@ The final door contains a heartfelt letter and a special surprise for Rashad to 
 ## License
 This project is made with love and is not intended for commercial use. All rights reserved by the author, **[Dalila Solis](https://github.com/d1solis)**.
 
----
-
 **Merry Christmas and Happy Holidays! 🎁🎅🤍**
 
-# ChristmasAdventCalendar
+---
+
+# Christmas-Advent-Calendar
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
 
